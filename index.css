@@ -226,6 +226,11 @@ body{
    
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
 .social_icons svg{
     cursor: pointer;
     width: 30px;
