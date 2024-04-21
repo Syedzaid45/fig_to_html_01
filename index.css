@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #F9FAFF;
+}
+
 .container{
     max-width: 1120px;
     margin: 0px auto;
@@ -243,9 +247,85 @@
     z-index: -1;
 }
 
+.tag_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tag_content span{
+        width: fit-content;
+        background-color: #FDC435;
+        font-family: "Roboto", sans-serif;
+        padding: 10px 28px;
+        font-size: 20px;
+        border-radius: 8px;
+        font-weight: 500;
+}
+
+.about_image{
+    background-color:#FDC435;
+    border-radius: 600px;
+    width: 524px;
+    height: 524px;
+}
 
 
+.about_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
 
 
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
 
+.input_value{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
+label{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input_value input{
+    padding: 0px 8px;
+    width: 400px;
+    height: 40px;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #828282;
+    border-radius: 8px;
+
+}
+
+.input_value textarea{
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #828282;
+    border-radius: 8px;
+}
+
+.submit_btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.submit_btn input{
+    padding: 8px 24px;
+    background-color: #FDC435;
+    border-radius: 8px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
